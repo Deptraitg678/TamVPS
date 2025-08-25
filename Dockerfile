@@ -57,4 +57,4 @@ qemu-system-x86_64 \
     -rtc clock=host,base=utc \
     -boot order=d,menu=on; \
 echo '[+] SSH Reverse Tunnel qua Pinggy.io...'; \
-ssh -p \$PINGGY_PORT -R0:localhost:5900 -o StrictHostKeyChecking=no -o ServerAliveInterval=30 \$PINGGY_USER@\$PINGGY_HOST"
+ssh -p 443 -R0:localhost:5900 -o StrictHostKeyChecking=no -o ServerAliveInterval=30 lVuaQjAzw82+tcp@free.pinggy.io
